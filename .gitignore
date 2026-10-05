@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# build outputs
+build/
+dist/
+image.tar
+sbom*.json
+*.o
+
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.venv/
+
+# results produced locally or by Slurm
+/results/
+/results-*.csv
+slurm-*.out
